@@ -26,5 +26,5 @@ elves.append(elf_cal)
 
 elves.sort(reverse=True)
 
-print('Answer 1:',max_cal)
-print('Answer 2:',elves[0]+elves[1]+elves[2])
+print('Answer 1:',max_cal)  # 2400 | 66616
+print('Answer 2:',elves[0]+elves[1]+elves[2]) # 45000 | 199172

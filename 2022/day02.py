@@ -52,5 +52,5 @@ round_score2 = {
 with open('input/' + day + '.txt') as input:
      score2 = sum(round_score2[round] for round in input.read().split('\n'))
 
-print('Answer 1:',score1)
-print('Answer 2:',score2)
+print('Answer 1:',score1) # 15 | 13809
+print('Answer 2:',score2) # 12 | 12316

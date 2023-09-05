@@ -37,5 +37,5 @@ with open('input/' + day + '.txt') as input:
             if ch in rucksack2 and ch in rucksack3: common_item = ch
         sum2 += get_priority(common_item)
 
-print('Answer 1: ', sum1) # 7980
-print('Answer 2: ', sum2) # 2881
+print('Answer 1: ', sum1) # 157 | 7980
+print('Answer 2: ', sum2) # 70 | 2881

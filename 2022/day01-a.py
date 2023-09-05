@@ -16,8 +16,8 @@ with open('input/s' + day + '.txt') as input:
 3. [sum(map(int,elf.split())) for elf in  input.read().split('\n\n')] # List of total calories per elf
 '''
 
-print('Answer 1:',max(elves))
-print('Answer 2:',sum(sorted(elves,reverse=True)[0:3]))
+print('Answer 1:',max(elves)) # 2400 | 66616
+print('Answer 2:',sum(sorted(elves,reverse=True)[0:3])) # 45000 | 199172
 
 '''
 1. sorted(elves,reverse=True) # Return list sorted in descent order. We cannot use elves.sort() as it sorts the original list and returns None

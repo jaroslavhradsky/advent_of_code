@@ -35,5 +35,5 @@ for line in open('input/' + day + '.txt'):
                 sum2 += get_priority(item)
                 break
 
-print('Answer 1: ', sum1) # 7980
-print('Answer 2: ', sum2) # 2881
+print('Answer 1: ', sum1) # 157 | 7980
+print('Answer 2: ', sum2) # 70 | 2881
