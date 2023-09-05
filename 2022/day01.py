@@ -2,7 +2,7 @@
 File: day01.py
 Author: Jaro Hradsky
 Date: 2023-09-04
-Description: Solution of https://adventofcode.com/2022/day/1
+Description: Original solution of https://adventofcode.com/2022/day/1
 '''
 
 day ='01'

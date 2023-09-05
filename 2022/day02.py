@@ -54,7 +54,3 @@ with open('input/' + day + '.txt') as input:
 
 print('Answer 1:',score1)
 print('Answer 2:',score2)
-
-
-
-    
